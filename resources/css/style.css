@@ -1,0 +1,65 @@
+* {
+    background-color: rgba(252, 247, 240, 0.945);
+}
+
+#brand {
+    font-family: serif;
+    font-size: 3rem;
+    color: #3C3C3C;
+}
+
+a {
+    color: #AF473C;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 20px;
+}
+
+#title{
+    color: #3C3C3C;
+}
+
+#author {
+    color: #945D60;
+    font-size: 1.2rem;
+}
+
+.tips {
+    color: #626E60;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 520;
+}
+
+.whatToDo {
+    color: #626E60;
+    font-size: 1.2rem;
+}
+
+#ingredients {
+    color: #AF473C;
+    font-size: 1.5rem;
+}
+
+.intro {
+    color: #626E60;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 520;
+}
+
+h2 {
+    color: #3C3C3C;
+    font-size: 2.7rem;
+    font-family: serif;
+}
+
+
+
+.lastTips {
+    color: #626E60;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 520;
+}
