@@ -1,70 +1,121 @@
-* {
-    background-color: rgba(252, 247, 240, 0.945);
+body {
+    background: linear-gradient(to bottom, #ffefef, #faffecf1) 
 }
+
 
 #brand {
     font-family: serif;
-    font-size: 3rem;
+    font-size: 5rem;
     color: #3C3C3C;
+    padding: 20px;
+    margin: 0px 0px 0px 700px;
 }
 
-a {
-    color: #AF473C;
-    font-size: 2rem;
-    text-decoration: none;
-    font-weight: 700;
-    padding: 20px;
+body {
+    width: 90%;
 }
 
 #title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 20px;
+    margin: 0px 0px 0px 700px;
+}
+
+h1 {
     color: #3C3C3C;
-}
-
-#author {
-    color: #945D60;
-    font-size: 1.2rem;
-}
-
-.tips {
-    color: #626E60;
-    font-size: 1.2rem;
-    font-family: sans-serif;
-    font-weight: 520;
-}
-
-.whatToDo {
-    color: #626E60;
-    font-size: 1.2rem;
-}
-
-#ingredients {
-    color: #AF473C;
-    font-size: 1.5rem;
-}
-
-.intro {
-    color: #626E60;
-    font-size: 1.2rem;
-    font-family: sans-serif;
-    font-weight: 520;
+    font-size: 3.5rem;
+    font-family: serif;
+    font-weight: 650;
+    padding: 40px 20px 10px 20px;
+    margin: 0px 0px 0px 850px;
+    width: 70%;
 }
 
 h2 {
     color: #3C3C3C;
     font-size: 2.7rem;
     font-family: serif;
+    font-weight: 650;
+    padding: 40px 20px 10px 20px;
+    margin: auto;
+    width: 70%;
 }
 
-
-
-.lastTips {
-    color: #626E60;
-    font-size: 1.2rem;
-    font-family: sans-serif;
-    font-weight: 520;
+h3 {
+    color: #3C3C3C;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
 }
 
 h5 {
     color: #945D60;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 30px 20px;
+    margin: 20px auto;
+    width: 24%;
+}
+
+p {
+    color: #626E60;
+    font-size: 1.4rem;
+    padding: 10px 30px;
+    margin: 0px 0px 0px 280px;
+}
+
+ol {
+    list-style: upper-roman;
+    color: #AF473C;
+    font-size: 1.4rem;
+    padding: 10px 40px;
+    margin: 0px 0px 0px 280px;
+}
+
+ul {
+    list-style: disc;
+    margin: 0px 0px 0px 280px;
+    color: #626E60;
+    font-size: 1.4rem;
+    padding: 10px 40px;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    color: #AF473C;
+    font-size: 1.5rem;
+    border: 5px outset #945D60;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 20px;
+    margin: 5px;
+    
+}
+
+a:hover {
+    border: 8px outset #945D60;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    padding: 20px 100px 30px 10px;
+    margin: auto;
+    width: 25%;
+    height: 50%;
+}
+
+img {
+    width: 50%;
+    height: 40%;
+    padding: 20px;
+    margin: 20px 600px;
+    text-align: center;
 }
